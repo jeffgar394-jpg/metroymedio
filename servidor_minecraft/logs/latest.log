@@ -1,0 +1,532 @@
+[14:56:29] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.2
+[14:56:31] [ForkJoinPool-1-worker-1/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:56:32] [main/WARN]: Warnings were found!
+ - Mod 'SimplySkills' (simplyskills) 1.7.2+1.20.1 recommends version 1.55.0-1.20.1 or later of simplyswords, which is missing!
+	 - You should install version 1.55.0-1.20.1 or later of simplyswords for the optimal experience.
+ - Mod 'SimplySkills' (simplyskills) 1.7.2+1.20.1 recommends version 1.4.2+1.20.1 or later of amethyst_core, which is missing!
+	 - You should install version 1.4.2+1.20.1 or later of amethyst_core for the optimal experience.
+[14:56:32] [main/INFO]: Loading 144 mods:
+	- accessories 1.0.0-beta.48+1.20.1
+	   |-- io_wispforest_endec 0.1.8
+	   |-- io_wispforest_endec_gson 0.1.5
+	   \-- io_wispforest_endec_netty 0.1.4
+	- alexsmobs 1.20.1-1.0.0
+	- archers 1.3.0+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- architectury 9.2.14
+	- azurelib 3.1.3
+	- azurelibarmor 2.0.14
+	- cardinal-components 5.2.3
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-block 5.2.3
+	   |-- cardinal-components-chunk 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- cardinal-components-item 5.2.3
+	   |-- cardinal-components-level 5.2.3
+	   |-- cardinal-components-scoreboard 5.2.3
+	   \-- cardinal-components-world 5.2.3
+	- cerbons_api 1.1.0
+	- citadel 1.20.1-1.0.0
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- cupboard 1.20.1-3.5
+	- darkmobs 1.1.9
+	- data_attributes 2.0.3+1.20.1-fabric
+	- death_knights 1.0.0
+	- eldritch_mobs 1.15.2
+	   |-- polymer-blocks 0.5.15+1.20.1
+	   |-- polymer-core 0.5.15+1.20.1
+	   |    |-- polymer-networking 0.5.15+1.20.1
+	   |    |    \-- polymer-common 0.5.15+1.20.1
+	   |    |         \-- packet_tweaker 0.4.0+1.19.4
+	   |    \-- polymer-registry-sync-manipulator 0.5.15+1.20.1
+	   \-- server_translations_api 2.0.0+1.20
+	        \-- packet_tweaker 0.4.0+1.19.4
+	- essential_commands 0.35.3-mc1.20.1
+	   |-- ec-core 1.3.0-mc1.20.1
+	   |    |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |    |-- placeholder-api 2.1.1+1.20
+	   |    \-- playerabilitylib 1.8.0
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- org_yaml_snakeyaml 2.0
+	   |-- placeholder-api 2.1.1+1.20
+	   \-- playerabilitylib 1.8.0
+	- eternal_attributes 1.0.0
+	- extraspellattributes 1.3.2
+	- fabric-api 0.92.7+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.15+93aa238b77
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.9+kotlin.2.3.10
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.10
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.31.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.10.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.10.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.10.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 6.0.1
+	- geckolib 4.8.3
+	   \-- com_eliotlash_mclib_mclib 20
+	- jade 11.13.1+fabric
+	- java 17
+	- jei 15.20.0.112
+	- jewelry 1.3.7+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- lithium 0.11.4
+	- luckperms 5.4.102
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- magistuarmory 10.11
+	- minecraft 1.20.1
+	- mobs_of_mythology 3.0.1
+	- mr_dungeons_andtaverns 3.0.3.f
+	- myths_of_the_sea 1.3.0
+	   \-- reach-entity-attributes 2.4.0
+	- necronomicon 1.6.0
+	- owo 0.11.2+1.20
+	   \-- blue_endless_jankson 1.2.2
+	- paladins 1.4.0+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- player-animator 1.0.2-rc1+1.20
+	- playerex 4.0.5+1.20.1
+	   |-- additionalentityattributes 1.7.4+1.20.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- opc 2.0.0+1.20.1-beta.4
+	   \-- placeholder-api 2.1.1+1.20
+	- protectmobsfromdaylight 1.0.1
+	- puffish_attributes 0.8.2
+	- puffish_skills 0.17.3
+	- ranged_weapon_api 1.1.4+1.20.1
+	- rogues 1.2.0+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- runes 0.9.13+1.20.1
+	- shield_api 1.0.1+1.20.1
+	- simplyskills 1.7.2+1.20.1
+	- smartbrainlib 1.15
+	- spell_engine 0.15.12+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- spell_power 0.12.0+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- starlight 1.1.2+fabric.dbc156f
+	- structure_pool_api 1.0+1.20.1
+	- structureessentials 1.20.1-4.8
+	- terralith 2.5.4
+	- travelersbackpack 9.1.51
+	   \-- reach-entity-attributes 2.4.0
+	- trinkets 3.7.2
+	- wizards 1.4.1+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- xaerominimap 25.3.7
+	   \-- xaerolib 1.1.0
+	- xaeroworldmap 1.40.6
+[14:56:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/metroymedio/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:56:34] [main/INFO]: Compatibility level set to JAVA_17
+[14:56:34] [main/WARN]: Reference map 'CerbonsAPI-Fabric-1.20.1-fabric-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:56:34] [main/WARN]: Reference map 'citadel.refmap.json' for citadel.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:56:35] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
+[14:56:35] [main/WARN]: Reference map 'puffish_attributes-refmap.json' for puffish_attributes.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:56:35] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[14:56:35] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[14:56:36] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[14:56:36] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[14:56:36] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[14:56:36] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[14:56:36] [main/INFO]: Loaded config for: structureessentials.json
+[14:56:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14:56:38] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on accessories-fabric.mixins.json:LivingEntityMixin from mod accessories::localvar$zza000$accessories$adjustLooting exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14:56:39] [main/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$bjg000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$bjg000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+	at org.spongepowered.asm.mixin.injection.selectors.TargetSelectors.validate(TargetSelectors.java:346) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:369) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:340) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:331) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:48) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:196) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:664) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1399) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.18.2.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraft.class_5620.method_32211(class_5620.java:39) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_654(class_156.java:436) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5620.method_32206(class_5620.java:39) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5620.<clinit>(class_5620.java:33) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5546.<init>(class_5546.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2246.<clinit>(class_2246.java:477) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2358.method_10199(class_2358.java:326) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2966.method_12851(class_2966.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:109) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[14:56:39] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzm000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14:56:44] [main/INFO]: Registering Listeners!
+[14:56:44] [main/INFO]: Adding datapack listener capsid_recipes
+[14:56:45] [main/INFO]: Registered azurelib config for auto-sync function
+[14:56:46] [main/INFO]: Loaded config for: cupboard.json
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.enchants.DecayingEnchantConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.enchants.DecayingEnchantConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.loot.JewelryLootConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.loot.JewelryLootConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.frost.ObliterateConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.frost.ObliterateConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.frost.RemorselessWinterConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.frost.RemorselessWinterConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.frost.BreathOfAgonyConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.frost.BreathOfAgonyConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.unholy.PlaguesConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.unholy.PlaguesConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.unholy.DeathCoilConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.unholy.DeathCoilConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.unholy.EpidemicConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.unholy.EpidemicConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.unholy.DeathGripConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.unholy.DeathGripConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.blood.DeathStrikeConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.blood.DeathStrikeConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.blood.MarrowrendConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.blood.MarrowrendConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.blood.BloodBoilConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.blood.BloodBoilConfig read successfully.
+[14:56:46] [main/INFO]: File exists, reading config for elocindev.deathknights.config.entries.spells.blood.BloodThirstConfig.
+[14:56:46] [main/INFO]: Config for elocindev.deathknights.config.entries.spells.blood.BloodThirstConfig read successfully.
+[14:56:46] [main/INFO]: Death Knights Config Loaded!
+[14:56:46] [main/INFO]: Death Knights Initialized!
+[14:56:46] [main/INFO]: Channelling eldritch energies...
+[14:56:46] [main/INFO]: Detected Java version 17. Enabling Java 16 features.
+[14:56:46] [main/INFO]: [EssentialCommands]: Mod Load Initiated.
+[14:56:46] [main/INFO]: [EssentialCommands]: Mod Load Complete.
+[14:56:46] [main/INFO]: Hello Fabric world!
+[14:56:46] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
+[14:56:46] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
+[14:56:46] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
+[14:56:46] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
+[14:56:46] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[14:56:46] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:minicrown
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:crown
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:flowercrown
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:armet
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:stechhelm
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:sallet
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:maximilian_helmet
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:kettlehat
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:barbute
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:crusader
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:armet
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:conic_helmet
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:conic_helmet
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:barbute
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:kettlehat
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:conic_helmet
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:crusader
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:bascinet
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:wingedhussarchestplate
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:46] [main/INFO]: [STDOUT]: magistuarmory:grand_bascinet
+[14:56:46] [main/INFO]: [STDOUT]: minecraft:default
+[14:56:47] [ForkJoinPool.commonPool-worker-2/INFO]: A new version of Essential Commands is available. Current: '0.35.3-mc1.20.1' Latest: '0.38.5-mc1.21.8
+'. Get the new version at https://modrinth.com/mod/essential-commands
+[14:56:47] [main/INFO]: Registered mobs_of_mythology config for auto-sync function
+[14:56:47] [main/ERROR]: No data fixer registered for mobs_of_mythology:automaton
+[14:56:47] [main/ERROR]: No data fixer registered for mobs_of_mythology:chupacabra
+[14:56:47] [main/ERROR]: No data fixer registered for mobs_of_mythology:kobold
+[14:56:47] [main/ERROR]: No data fixer registered for mobs_of_mythology:kobold_warrior
+[14:56:47] [main/ERROR]: No data fixer registered for mobs_of_mythology:drake
+[14:56:47] [main/ERROR]: No data fixer registered for mobs_of_mythology:sporeling
+[14:56:47] [main/ERROR]: No data fixer registered for abaia
+[14:56:47] [main/ERROR]: No data fixer registered for bake_kujira
+[14:56:47] [main/ERROR]: No data fixer registered for bunyip
+[14:56:47] [main/ERROR]: No data fixer registered for leviathan
+[14:56:47] [main/ERROR]: No data fixer registered for hippocampus
+[14:56:47] [main/ERROR]: No data fixer registered for kraken
+[14:56:47] [main/ERROR]: [Myths of the Sea: Couldn't load config; reverting to defaults
+[14:56:47] [main/INFO]: Necronomicon Initialized
+[14:56:47] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[14:56:47] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[14:56:47] [main/INFO]: recorded [1] registered keys!
+[14:56:47] [main/INFO]: Did you know that Air is made of 78 percent nitrogen and 21 percent oxygen?
+[14:56:47] [main/INFO]: Let's do it right this time...
+[14:56:47] [main/INFO]: Hello Fabric world!
+[14:56:47] [main/INFO]: Shield API initialized!
+[14:56:47] [main/INFO]: Registering Items for simplyskills
+[14:56:47] [main/INFO]: Registering Entities for simplyskills
+[14:56:48] [main/INFO]: structureessentials mod initialized
+[14:56:48] [main/ERROR]: No data fixer registered for 
+[14:56:48] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[14:56:48] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[14:56:48] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[14:56:48] [main/INFO]: Registered the FluidEffect with Unique ID of milk:still_milk for Air (Fluid Amount Required: 81000) with the ID 3
+[14:56:49] [main/INFO]: Registering common data for channel xaerolib:main!
+[14:56:49] [main/INFO]: Loading primary common config for channel xaerolib:main!
+[14:56:49] [main/INFO]: Loading server config profiles for channel xaerolib:main!
+[14:56:49] [main/INFO]: Loading XaeroLib common 1/2!
+[14:56:49] [main/INFO]: Loading XaeroLib server 1/2!
+[14:56:49] [main/INFO]: Registering common data for channel xaerominimap:main!
+[14:56:49] [main/INFO]: Loading primary common config for channel xaerominimap:main!
+[14:56:49] [main/INFO]: Loading server config profiles for channel xaerominimap:main!
+[14:56:49] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14:56:49] [main/INFO]: Registering common data for channel xaeroworldmap:main!
+[14:56:49] [main/INFO]: Loading primary common config for channel xaeroworldmap:main!
+[14:56:49] [main/INFO]: Loading server config profiles for channel xaeroworldmap:main!
+[14:56:49] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14:56:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:56:51] [main/WARN]: Adding spell_power:fire to saved/remote registry.
+[14:56:51] [main/WARN]: Adding spell_power:frost to saved/remote registry.
+[14:56:51] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
+[14:56:51] [main/WARN]: Adding alexsmobs:soulsteal to saved/remote registry.
+[14:56:51] [main/WARN]: Adding alexsmobs:bug_pheromones to saved/remote registry.
+[14:56:51] [main/WARN]: supplementaries:overencumbered missing from registry, but requested!
+[14:56:51] [main/WARN]: supplementaries:flammable missing from registry, but requested!
+[14:56:51] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:56:52] [main/INFO]: Loaded 8 recipes
+[14:56:52] [main/INFO]: Loaded 1593 advancements
+[14:56:52] [ForkJoinPool.commonPool-worker-2/INFO]: Loaded 56 translation keys
+[14:56:53] [main/INFO]: Applied 1298 biome modifications to 163 of 163 new biomes in 74.24 ms
+[14:56:53] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[14:56:53] [Server thread/WARN]: [puffish_skills] Data pack `simplyskills` loaded successfully with warning(s):
+Data pack `simplyskills` uses outdated version. Please update the configuration version to 3 at `version` at `simplyskills:puffish_skills/config.json`
+[14:56:53] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 343076 bytes (in 35 string chunks with the size of 10000)
+[14:56:53] [Server thread/INFO]:         __    
+[14:56:53] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[14:56:53] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.92.7+1.20.1
+[14:56:53] [Server thread/INFO]: 
+[14:56:53] [Server thread/INFO]: Loading configuration...
+[14:56:54] [Server thread/INFO]: Loading storage provider... [H2]
+[14:56:54] [Server thread/INFO]: Loading internal permission managers...
+[14:56:54] [Server thread/INFO]: Performing initial data load...
+[14:56:54] [Server thread/INFO]: Successfully enabled. (took 944ms)
+[14:56:54] [Server thread/INFO]: Loading XaeroLib common 2/2!
+[14:56:54] [Server thread/INFO]: Loading XaeroLib server 2/2!
+[14:56:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:56:54] [Server thread/INFO]: Loading properties
+[14:56:54] [Server thread/INFO]: Default game type: SURVIVAL
+[14:56:54] [Server thread/INFO]: Generating keypair
+[14:56:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:56:54] [Server thread/INFO]: Using epoll channel type
+[14:56:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:56:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:56:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:56:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:56:55] [Server thread/INFO]: Preparing level "world"
+[14:56:59] [Server thread/WARN]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [minecraft:mineshafts, minecraft:strongholds, minecraft:buried_treasures]
+[14:56:59] [Server thread/WARN]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost]
+[14:56:59] [Server thread/WARN]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, minecraft:end_cities]
+[14:56:59] [Server thread/WARN]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [minecraft:villages, nova_structures:villages_jungle, nova_structures:villages_swamp]
+[14:56:59] [Server thread/WARN]: Non-unique structure_set salt:2358902 potentially creating overlapping structures detected. Structure sets: [terralith:mage, terralith:regular]
+[14:56:59] [Server thread/WARN]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[14:56:59] [Server thread/WARN]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[14:56:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:57:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:57:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:57:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:57:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:57:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:57:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:57:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:57:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:57:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:57:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:57:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:57:04] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[14:57:05] [Worker-Main-2/INFO]: Preparing spawn area: 46%
+[14:57:05] [Server thread/INFO]: Time elapsed: 6368 ms
+[14:57:05] [Server thread/INFO]: Done (10.451s)! For help, type "help"
+[14:57:05] [Server thread/INFO]: Updated manager with 22 entries & 1 entity-types. :: update flag [#0]
+[14:57:05] [Server thread/INFO]: Start loading plugin from Jade
+[14:57:05] [Server thread/INFO]: Start loading plugin from Jade
+[14:57:05] [Server thread/INFO]: Start loading plugin from Jade
+[14:57:05] [Server thread/INFO]: Start loading plugin from Polymer (Core)
+[14:57:05] [Server thread/INFO]: A new version of Essential Commands is available. Current: '0.35.3-mc1.20.1' Latest: '0.38.5-mc1.21.8
+'. Get the new version at https://modrinth.com/mod/essential-commands
+[14:57:05] [Server thread/INFO]: Possible world ids: minecraft:overworld,minecraft:the_end,minecraft:the_nether
+[14:57:05] [Server thread/INFO]: Configured `rtp_enabled_worlds` world ids: minecraft:overworld
+[14:57:05] [Server thread/INFO]: All configured `rtp_enabled_worlds` world ids are valid.
+[14:57:05] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14:57:05] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[15:03:05] [Server thread/INFO]: Giving up search for pupfish chunk after 6 minutes. no pupfish will spawn in this world :( 
+[15:08:04] [Server thread/INFO]: [Handshake] Sending channel query
+[15:08:04] [Netty Epoll Server IO #3/INFO]: [Handshake] Receiving client channels
+[15:08:04] [Netty Epoll Server IO #3/INFO]: [Handshake] Handshake completed successfully
+[15:08:06] [Server thread/INFO]: baljeet[/100.91.110.62:49669] logged in with entity id 31 at (1139.5124610000796, 66.0, -56.375285566140406)
+[15:08:06] [Server thread/INFO]: Sending server config values to client
+[15:08:06] [Server thread/INFO]: Syncing config to baljeet (222aa2ee-6b70-3d0a-9dae-67ef81c62281)
+[15:08:07] [Server thread/INFO]: Loading config from file...
+[15:08:07] [Server thread/INFO]: [Essential Commands] Loading PlayerData for player with uuid '222aa2ee-6b70-3d0a-9dae-67ef81c62281'.
+[15:08:07] [Server thread/INFO]: baljeet joined the game
+[15:08:07] [Server thread/INFO]: [Essential Commands] Loading PlayerProfile for player with uuid '222aa2ee-6b70-3d0a-9dae-67ef81c62281'.
+[15:08:07] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[15:08:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5123ms or 102 ticks behind
+[15:14:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2148ms or 42 ticks behind
+[15:15:56] [Server thread/INFO]: baljeet lost connection: Disconnected
+[15:15:56] [Server thread/INFO]: baljeet left the game
+[15:15:59] [Server thread/INFO]: [Handshake] Sending channel query
+[15:15:59] [Netty Epoll Server IO #5/INFO]: [Handshake] Receiving client channels
+[15:15:59] [Netty Epoll Server IO #5/INFO]: [Handshake] Handshake completed successfully
+[15:16:00] [Server thread/INFO]: baljeet[/100.91.110.62:52989] logged in with entity id 1571 at (1128.0951975172643, 66.0, -54.73285981771399)
+[15:16:00] [Server thread/INFO]: Sending server config values to client
+[15:16:00] [Server thread/INFO]: Syncing config to baljeet (222aa2ee-6b70-3d0a-9dae-67ef81c62281)
+[15:16:00] [Server thread/INFO]: Loading config from file...
+[15:16:00] [Server thread/INFO]: [Essential Commands] Loading PlayerData for player with uuid '222aa2ee-6b70-3d0a-9dae-67ef81c62281'.
+[15:16:00] [Server thread/INFO]: baljeet joined the game
+[15:16:00] [Server thread/INFO]: [Essential Commands] Loading PlayerProfile for player with uuid '222aa2ee-6b70-3d0a-9dae-67ef81c62281'.
+[15:16:01] [Netty Epoll Server IO #5/INFO]: Receiving client config
+[15:24:09] [Server thread/INFO]: Named entity class_1642['Rust Regenerating Ghastly Sprinter Zombie'/2865, l='ServerLevel[world]', x=1097.97, y=67.00, z=-98.29] died: Rust Regenerating Ghastly Sprinter Zombie was shot by baljeet
+[15:28:17] [Server thread/INFO]: Made baljeet a server operator
+[15:28:46] [Server thread/INFO]: [baljeet: Teleported baljeet to -181.500000, 71.500000, 710.500000]
+[15:29:04] [Server thread/INFO]: [baljeet: Teleported baljeet to -403.500000, 64.500000, 732.500000]
+[15:29:06] [Worker-Main-19/INFO]: vanilla surface rule behavior unchanged
+[15:29:13] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=203, y=48, z=159}
+[15:29:20] [Server thread/INFO]: [baljeet: Teleported baljeet to -613.500000, 63.500000, 677.500000]
+[15:29:36] [Server thread/INFO]: [baljeet: Teleported baljeet to -793.500000, 63.500000, 645.500000]
+[15:29:40] [Worker-Main-19/ERROR]: Hanging entity at invalid position: class_2338{x=203, y=48, z=159}
+[15:29:41] [Server thread/INFO]: [baljeet: Teleported baljeet to -909.500000, 84.500000, 595.500000]
+[15:29:47] [Server thread/INFO]: [baljeet: Teleported baljeet to -959.500000, 64.500000, 652.500000]
+[15:31:52] [Server thread/INFO]: Named entity class_1642['Speedster Regenerating Zombie'/7179, l='ServerLevel[world]', x=-1107.84, y=90.00, z=786.42] died: Speedster Regenerating Zombie was shot by baljeet
+[15:36:27] [Server thread/INFO]: Named entity class_1642['Drowning Burning Toxic Berserk Zombie'/9081, l='ServerLevel[world]', x=-1061.46, y=76.25, z=703.91] died: Drowning Burning Toxic Berserk Zombie was shot by baljeet
+[15:37:31] [Server thread/INFO]: Named entity class_1548['Toxic Lethargic Starving Creeper'/8832, l='ServerLevel[world]', x=-1065.39, y=79.00, z=782.45] died: Toxic Lethargic Starving Creeper was shot by baljeet
+[15:39:17] [Server thread/INFO]: [baljeet: Teleported baljeet to -1197.500000, 83.500000, 697.500000]
+[15:41:57] [Server thread/INFO]: Named entity class_1642['Stormy Speedster Yeeter Sprinter Zombie'/11509, l='ServerLevel[world]', x=-1269.45, y=63.00, z=791.05] died: Stormy Speedster Yeeter Sprinter Zombie was shot by baljeet
+[15:42:09] [Server thread/INFO]: Named entity class_1642['Resistant Gravity Starving Burning Zombie'/11508, l='ServerLevel[world]', x=-1272.35, y=63.00, z=790.70] died: Resistant Gravity Starving Burning Zombie was shot by baljeet
+[15:43:14] [Server thread/INFO]: Named entity class_1613['Starving Duplicator Skeleton'/12078, l='ServerLevel[world]', x=-1278.90, y=64.00, z=723.00] died: Starving Duplicator Skeleton was shot by baljeet
+[15:43:48] [Server thread/INFO]: Named entity class_1548['Duplicator Blinding Undying Burning Creeper'/12179, l='ServerLevel[world]', x=-1278.88, y=62.13, z=786.94] died: Duplicator Blinding Undying Burning Creeper was shot by baljeet
+[15:44:20] [Server thread/INFO]: [baljeet: Teleported baljeet to -1264.500000, 75.500000, 681.500000]
+[15:45:36] [Server thread/INFO]: [baljeet: Teleported baljeet to -1399.500000, 66.500000, 755.500000]
+[15:46:25] [Server thread/INFO]: [baljeet: Teleported baljeet to -1443.500000, 118.500000, 924.500000]
+[15:46:43] [Worker-Main-18/ERROR]: Hanging entity at invalid position: class_2338{x=-4, y=-56, z=80}
+[15:46:55] [Server thread/INFO]: baljeet has reached the goal [Ice Scream]
+[15:48:33] [Worker-Main-43/ERROR]: Hanging entity at invalid position: class_2338{x=-1, y=-46, z=79}
+[15:48:33] [Worker-Main-43/ERROR]: Hanging entity at invalid position: class_2338{x=1, y=-57, z=78}
+[15:48:33] [Worker-Main-43/ERROR]: Hanging entity at invalid position: class_2338{x=1, y=-57, z=79}
+[15:49:43] [Server thread/INFO]: [baljeet: Teleported baljeet to -1701.500000, 95.500000, 888.500000]
+[15:49:50] [Worker-Main-43/ERROR]: Hanging entity at invalid position: class_2338{x=216, y=47, z=211}
+[15:50:36] [Server thread/INFO]: [baljeet: Teleported baljeet to -1502.500000, 112.500000, 906.500000]
+[15:57:07] [Server thread/INFO]: Named entity class_1604['Sprinter Starving Speedster Pillager'/18514, l='ServerLevel[world]', x=-1208.70, y=114.00, z=1501.30] died: Sprinter Starving Speedster Pillager was shot by baljeet
+[15:57:15] [Server thread/INFO]: Named entity class_1604['Regenerating Speedster Stormy Pillager'/18508, l='ServerLevel[world]', x=-1211.51, y=114.00, z=1503.43] died: Regenerating Speedster Stormy Pillager was shot by baljeet
+[15:58:34] [Server thread/INFO]: Named entity class_1632['Blinding Duplicator Vindicator'/18511, l='ServerLevel[world]', x=-1216.51, y=122.29, z=1493.23] died: Blinding Duplicator Vindicator was shot by baljeet
+[16:03:47] [Server thread/INFO]: [baljeet: Teleported baljeet to -1212.500000, 164.500000, 1493.500000]
+[16:04:18] [Server thread/INFO]: [baljeet: Teleported baljeet to -1141.500000, 102.500000, 1577.500000]
+[16:04:59] [Server thread/INFO]: baljeet has made the advancement [Call For Adventure]
+[16:05:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5078ms or 101 ticks behind
+[16:06:04] [Server thread/INFO]: baljeet lost connection: Disconnected
+[16:06:04] [Server thread/INFO]: baljeet left the game
+[16:07:21] [Server thread/INFO]: [Handshake] Sending channel query
+[16:07:21] [Netty Epoll Server IO #7/INFO]: [Handshake] Receiving client channels
+[16:07:21] [Netty Epoll Server IO #7/INFO]: [Handshake] Handshake completed successfully
+[16:07:21] [Server thread/INFO]: baljeet[/100.91.110.62:65244] logged in with entity id 24214 at (-1142.6439509465931, 98.236927359576, 1600.1523766137884)
+[16:07:21] [Server thread/INFO]: Sending server config values to client
+[16:07:21] [Server thread/INFO]: Syncing config to baljeet (222aa2ee-6b70-3d0a-9dae-67ef81c62281)
+[16:07:21] [Server thread/INFO]: Loading config from file...
+[16:07:21] [Server thread/INFO]: [Essential Commands] Loading PlayerData for player with uuid '222aa2ee-6b70-3d0a-9dae-67ef81c62281'.
+[16:07:21] [Server thread/INFO]: baljeet joined the game
+[16:07:21] [Server thread/INFO]: [Essential Commands] Loading PlayerProfile for player with uuid '222aa2ee-6b70-3d0a-9dae-67ef81c62281'.
+[16:07:21] [Netty Epoll Server IO #7/INFO]: Receiving client config
+[16:07:32] [Server thread/INFO]: [baljeet: Teleported baljeet to -1236.500000, 90.500000, 1701.500000]
+[16:10:36] [Server thread/INFO]: [baljeet: Teleported baljeet to -1049.500000, 68.500000, 2250.500000]
+[16:10:39] [Worker-Main-88/ERROR]: Hanging entity at invalid position: class_2338{x=203, y=48, z=159}
+[16:10:57] [Server thread/INFO]: [baljeet: Teleported baljeet to -902.500000, 89.500000, 2084.500000]
+[16:11:54] [Server thread/INFO]: [baljeet: Teleported baljeet to -900.500000, 72.500000, 2111.500000]
+[16:12:04] [Server thread/INFO]: [baljeet: Teleported baljeet to -1054.500000, 70.500000, 2189.500000]
+[16:12:38] [Server thread/INFO]: Named entity class_1604['Stormy Withering Starving Sprinter Pillager'/28691, l='ServerLevel[world]', x=-1096.34, y=67.00, z=2198.24] died: Stormy Withering Starving Sprinter Pillager was shot by baljeet
+[16:13:11] [Server thread/INFO]: [baljeet: Teleported baljeet to -1189.500000, 65.500000, 2293.500000]
+[16:13:17] [Server thread/INFO]: [baljeet: Teleported baljeet to -1273.500000, 68.500000, 2382.500000]
+[16:13:30] [Server thread/INFO]: [baljeet: Teleported baljeet to -1347.500000, 71.500000, 2454.500000]
+[16:13:40] [Worker-Main-43/ERROR]: Hanging entity at invalid position: class_2338{x=203, y=48, z=159}
+[16:13:40] [Server thread/INFO]: [baljeet: Teleported baljeet to -1459.500000, 63.500000, 2502.500000]
+[16:14:00] [Server thread/INFO]: [baljeet: Teleported baljeet to -1345.500000, 72.500000, 2421.500000]
+[16:14:05] [Server thread/INFO]: [baljeet: Teleported baljeet to -1271.500000, 68.500000, 2383.500000]
+[16:14:12] [Server thread/INFO]: [baljeet: Teleported baljeet to -1310.500000, 69.500000, 2435.500000]
+[16:14:21] [Server thread/INFO]: [baljeet: Teleported baljeet to -1441.500000, 64.500000, 2582.500000]
+[16:15:07] [Server thread/INFO]: [baljeet: Teleported baljeet to -1551.500000, 73.500000, 2687.500000]
+[16:15:52] [Server thread/INFO]: Named entity class_1642['Toxic Burning Ghastly Zombie'/31994, l='ServerLevel[world]', x=-1487.08, y=68.27, z=2763.84] died: Toxic Burning Ghastly Zombie was shot by baljeet
+[16:15:57] [Server thread/INFO]: Named entity class_1642['Weakness Undying Zombie'/31997, l='ServerLevel[world]', x=-1487.99, y=68.00, z=2764.07] died: Weakness Undying Zombie was shot by baljeet
+[16:16:35] [Server thread/INFO]: Named entity class_1548['Draining Cloaked Creeper'/32395, l='ServerLevel[world]', x=-1490.95, y=68.00, z=2764.56] died: Draining Cloaked Creeper was shot by baljeet
